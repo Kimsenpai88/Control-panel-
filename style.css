@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #00FF00;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+button {
+    background-color: black;
+    border: 2px solid #00FF00;
+    color: #00FF00;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    width: 80%;
+}
+
+button:hover {
+    background-color: #00FF00;
+    color: black;
+}
+
+#status {
+    margin-top: 20px;
+}
